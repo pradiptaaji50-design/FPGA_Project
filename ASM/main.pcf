@@ -1,0 +1,8 @@
+# Clock - Sesuaikan nomor pin dengan board yang Anda gunakan (contoh: pin 35)
+set_io clk      21
+
+# Input - Port \input (contoh: pin 10)
+set_io input    10
+
+# Output - Port \output (contoh: pin 11)
+set_io output   11

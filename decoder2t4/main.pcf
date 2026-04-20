@@ -1,0 +1,9 @@
+# Inputs (Header J3)
+set_io I0 78
+set_io I1 79
+
+# Outputs (4 LED Merah iCEstick)
+set_io O0 99
+set_io O1 98
+set_io O2 97
+set_io O3 96
