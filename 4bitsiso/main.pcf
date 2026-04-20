@@ -1,0 +1,8 @@
+# Clock internal iCEstick (12 MHz)
+set_io clk 21
+
+# Input S1 (Header J3 pin 1)
+set_io S1 78
+
+# Output (LED Hijau)
+set_io out 95

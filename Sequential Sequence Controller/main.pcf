@@ -1,0 +1,8 @@
+# Input
+set_io OB       112
+set_io CLK      21
+set_io RST      113
+
+# Output (LED)
+set_io RR       95
+set_io RL       96
