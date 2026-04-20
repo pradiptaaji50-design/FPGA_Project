@@ -1,0 +1,8 @@
+# Inputs (Header J3)
+set_io A 78
+set_io B 79
+set_io C 80
+set_io D 81
+
+# Output (LED Hijau)
+set_io P 95

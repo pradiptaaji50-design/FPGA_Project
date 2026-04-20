@@ -1,0 +1,7 @@
+# Clock 12 MHz bawaan iCEstick
+set_io clk 21
+
+# Output LED
+set_io lamp[2] 99   # Merah
+set_io lamp[1] 98   # Kuning
+set_io lamp[0] 97   # Hijau
