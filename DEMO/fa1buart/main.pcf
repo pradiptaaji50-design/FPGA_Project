@@ -1,0 +1,13 @@
+# Jantung sistem: Clock internal 12MHz
+set_io clk 21
+
+# Jalur komunikasi: Input dari Keyboard laptop (via USB)
+set_io rx  9
+
+# Output Fisik: 5 LED pada iCEstick
+# Mapping berdasarkan kode Full Adder sebelumnya:
+set_io led[0] 95   # LED Tengah (Sum)
+set_io led[1] 96   # LED Atas   (Carry Out)
+set_io led[2] 97   # LED Bawah  (Status Input A)
+set_io led[3] 98   # LED Kiri   (Status Input B)
+set_io led[4] 99   # LED Kanan  (Status Input Cin)

@@ -1,0 +1,35 @@
+# --- INPUTS ---
+# Input A (Header J3)
+set_io A  78
+set_io A1 79
+set_io A2 80
+set_io A3 81
+set_io A4 87
+set_io A5 88
+set_io A6 90
+set_io A7 91
+
+# Input B (Header J1 - Contoh Pin)
+set_io B  112
+set_io B1 113
+set_io B2 114
+set_io B3 115
+set_io B4 116
+set_io B5 117
+set_io B6 118
+set_io B7 119
+
+# Input Carry In
+set_io Cin 94
+
+# --- OUTPUTS ---
+# Output S (LED & Header)
+set_io S  95
+set_io S1 96
+set_io S2 97
+set_io S3 98
+set_io S4 99
+set_io S5 2
+set_io S6 3
+set_io S7 4
+set_io CoutFinal 7

@@ -1,0 +1,13 @@
+# Clock internal iCEstick
+set_io clk 21
+
+# Jalur Serial USB
+set_io tx  8
+set_io rx  9
+
+# LED iCEstick (5 buah)
+set_io led[0] 95
+set_io led[1] 96
+set_io led[2] 97
+set_io led[3] 98
+set_io led[4] 99
