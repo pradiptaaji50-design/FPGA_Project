@@ -1,0 +1,8 @@
+# ===== INPUT (Switch) =====
+set_io A   107   # SW1
+set_io B   106   # SW2
+set_io Cin 105   # SW3
+
+# ===== OUTPUT (LED) =====
+set_io S    99   # LED1 (Merah)
+set_io Cout 98   # LED2 (Merah)
