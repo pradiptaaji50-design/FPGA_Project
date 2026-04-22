@@ -1,0 +1,30 @@
+set_io A[0] 112
+set_io A[1] 113
+set_io A[2] 114
+set_io A[3] 115
+set_io A[4] 116
+set_io A[5] 117
+set_io A[6] 118
+set_io A[7] 119
+
+set_io B[0] 120
+set_io B[1] 121
+set_io B[2] 122
+set_io B[3] 128
+set_io B[4] 129
+set_io B[5] 134
+set_io B[6] 135
+set_io B[7] 136
+
+set_io CIN 79
+
+set_io SUM[0] 99
+set_io SUM[1] 98
+set_io SUM[2] 97
+set_io SUM[3] 96
+set_io SUM[4] 95
+set_io SUM[5] 94
+set_io SUM[6] 91
+set_io SUM[7] 90
+
+set_io COUT 88
