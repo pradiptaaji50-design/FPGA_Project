@@ -1,0 +1,12 @@
+set_io clk 21
+set_io rx  9
+
+# Menggunakan Header J2 (2x6) sesuai tabel dokumentasi
+set_io seg[0] 78  # Pin 1  (a)
+set_io seg[1] 79  # Pin 2  (b)
+set_io seg[2] 80  # Pin 3  (c)
+set_io seg[3] 81  # Pin 4  (d)
+set_io seg[4] 87  # Pin 7  (e)
+set_io seg[5] 88  # Pin 8  (f)
+set_io seg[6] 90  # Pin 9  (g)
+set_io seg[7] 91  # Pin 10 (DP)

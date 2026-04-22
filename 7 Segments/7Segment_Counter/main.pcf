@@ -1,0 +1,15 @@
+# Clock & UART
+set_io clk 21
+set_io rx  9
+
+# 7-Segment Mapping menggunakan Header J2 (2x6)
+# Sisi Kiri (Left Row)
+set_io seg[0] 78  # Pin 1 (PIO1_02) -> Segment a
+set_io seg[1] 79  # Pin 2 (PIO1_03) -> Segment b
+set_io seg[2] 80  # Pin 3 (PIO1_04) -> Segment c
+set_io seg[3] 81  # Pin 4 (PIO1_05) -> Segment d
+
+# Sisi Kanan (Right Row)
+set_io seg[4] 87  # Pin 7 (PIO1_06) -> Segment e
+set_io seg[5] 88  # Pin 8 (PIO1_07) -> Segment f
+set_io seg[6] 90  # Pin 9 (PIO1_08) -> Segment g
